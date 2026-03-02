@@ -4,13 +4,13 @@ A medical Q&A chatbot focused on back pain, built with **Retrieval-Augmented Gen
 
 ---
 
-## 📸 Demo
+##  Demo
 
 > Ask questions like *"My lower back hurts. Should I rest in bed or keep moving?"* and get evidence-grounded, professional responses.
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ```
 User Question
@@ -33,7 +33,7 @@ Gradio UI displays answer
 
 ---
 
-## ✨ Features
+##  Features
 
 - **RAG pipeline** — grounds responses in actual medical literature, reducing hallucinations
 - **Local LLM** — uses `mistralai/Mistral-7B-Instruct-v0.2` with no API calls
@@ -44,7 +44,7 @@ Gradio UI displays answer
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 BACK_PAIN_RAG_CHATBOT.ipynb   # Main notebook (run top to bottom)
@@ -65,7 +65,7 @@ The pipeline inside the notebook:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Run on Google Colab (recommended)
 
@@ -85,7 +85,7 @@ You can replace or add any PDF on the topic.
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 | Component | Library / Model |
 |---|---|
@@ -99,7 +99,7 @@ You can replace or add any PDF on the topic.
 
 ---
 
-## 🩺 System Prompt & Safety
+##  System Prompt & Safety
 
 The LLM is instructed to behave as a medical assistant with strict guardrails:
 
